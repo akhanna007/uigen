@@ -98,7 +98,7 @@ describe("ChatContext", () => {
 
     expect(useAIChat).toHaveBeenCalledWith({
       api: "/api/chat",
-      initialMessages,
+      messages: initialMessages,
       body: {
         files: mockFileSystem.serialize(),
         projectId: "test-project",

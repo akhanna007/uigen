@@ -2,7 +2,22 @@
   "permissions": {
     "allow": [
       "Bash(curl:*)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm test:*)",
+      "Bash(cat:*)",
+      "Bash(claude mcp add playwright npx @playwright/mcp@latest)",
+      "Bash(npm run dev:daemon:*)",
+      "Bash(start http://localhost:3000)",
+      "Bash(node -e:*)",
+      "Bash(npm info:*)",
+      "Bash(npm install:*)",
+      "mcp__playwright",
+      "Bash(taskkill:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)"
     ]
   }
 }
